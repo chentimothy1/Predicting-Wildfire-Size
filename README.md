@@ -1,6 +1,6 @@
 # wildfire_data
 
-This project aimed to analyze the time delta between discovery and containment time to predict the fire class size. In initial attempts to classify fire severity based on our Hours to Containment target, a Linear Regression model indicated that we didn’t have sufficient featuredata to predict on said target. Across 5 folds with a testing size of 33%, the training R 2 measured at a mean of 0.101 +/= .008 and testing R 2 at .102 +/= .001.
+This project aimed to analyze the time delta between discovery and containment time to predict the fire class size. In initial attempts to classify fire severity based on our Hours to Containment target, a Linear Regression model indicated that we didn’t have sufficient feature data to predict on said target. Across 5 folds with a testing size of 33%, the training R 2 measured at a mean of 0.101 +/= .008 and testing R 2 at .102 +/= .001.
 
 We then used a Decision Tree to model the data as it’d allow for the reasoning for the predictions
 to be deduced, and could thus help in identifying why a potential wildfire might be severe. The
